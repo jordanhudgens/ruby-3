@@ -1,10 +1,12 @@
-def customer_assignments(*customers)
-  puts "Assigning customers: #{customers}"
+def customer_assignments *customers
+  # "Assigning customers: #{customers.upcase}"
+  customers.each do |customer|
+    puts customer.upcase
+  end
 end
 
 customer_assignments(
-  "Google",
-  "Facebook",
   "Apple",
+  "Google",
+  "Facebook"
 )
-
