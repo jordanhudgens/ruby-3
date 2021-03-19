@@ -11,14 +11,8 @@ def registration(email:, password:, **kwargs)
 end
 
 registration(
-  email: "test@example.com",
-  password: "secret",
+  email: "jordan@example.com",
+  password: "asdfasdf",
   role: "admin",
-  plan: "Premium"
+  plan: "super deluxe"
 )
-
-registration(
-  email: "test2@example.com",
-  password: "secret"
-)
-
